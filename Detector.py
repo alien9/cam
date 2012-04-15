@@ -3,6 +3,7 @@ from opencv import highgui
 import time
 THRESHOLD=40
 PEAK=3000
+import copy
 camera = highgui.cvCreateCameraCapture(-1)
 
 def get_image():
