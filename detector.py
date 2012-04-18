@@ -51,6 +51,7 @@ class Detector:
             print "Error: camera disconnected"
             sys.exit()
             raise SystemExit
+
     def difere(a,b):
         d=0
         x=0
@@ -69,6 +70,7 @@ class Detector:
     W=im.size[0]
     H=im.size[1]
     ig=copy.copy(im)
+
     c=0
     while True: 
 
@@ -89,6 +91,7 @@ class Detector:
             time.sleep(5) 
         ig=copy.copy(im)
     exit()
+
         
 
 
