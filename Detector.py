@@ -1,10 +1,12 @@
+
+
 import opencv
 from opencv import highgui
 import time
+import copy
+camera = highgui.cvCreateCameraCapture(-1)
 THRESHOLD=40
 PEAK=3000
-camera = highgui.cvCreateCameraCapture(-1)
-
 def get_image():
     im = highgui.cvQueryFrame(camera)
     #detect(im)
