@@ -86,7 +86,7 @@ class Detector:
             print "toca video"
             #g.emit("eof",1)
             #.loadfile("../stood.mov")
-            call("mplayer ../stood.mov -fs < /dev/null &", shell=True)
+            call("mplayer ../stood.mov -fs", shell=True)
             c=0
             time.sleep(5) 
         ig=copy.copy(im)
